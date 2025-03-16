@@ -3,11 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ryan Zhang Personal Website</title>
+    <title>Ryan Zhang | Stanford '28</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        header {
+            display: flex;
+            align-items: center;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #ddd;
+        }
+        .profile-pic {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+        h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .contact {
+            margin-top: 10px;
+            font-size: 14px;
+        }
+        section {
+            margin-top: 30px;
+        }
+        h2 {
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+        }
+        .updates, .research {
+            list-style-type: none;
+            padding: 0;
+        }
+        .updates li, .research li {
+            margin: 10px 0;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to Ryan Zhang Website</h1>
-    <p>Hello, this is my personal site hosted on GitHub Pages!</p>
+    <div class="container">
+        <header>
+            <img src="profile.jpg" alt="Ryan Zhang" class="profile-pic">
+            <div>
+                <h1>Ryan Zhang</h1>
+                <p>Stanford University, Class of 2028</p>
+                <p>Math & Computer Science</p>
+                <p class="contact">📧 <a href="mailto:ryanzhang@stanford.edu">ryanzhang@stanford.edu</a> | 
+                🔗 <a href="https://github.com/ryanz22">GitHub</a></p>
+            </div>
+        </header>
+
+        <section>
+            <h2>Updates</h2>
+            <ul class="updates">
+                <li>[March 2025] Published a new paper on algebraic topology.</li>
+                <li>[February 2025] Attended Stanford Research Conference.</li>
+                <li>[January 2025] Started research on deep learning in graph theory.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Research</h2>
+            <ul class="research">
+                <li><strong>Paper:</strong> "Applications of Algebraic Topology in Graph Networks" - <em>Journal of Math & CS</em>, 2025.</li>
+                <li><strong>Project:</strong> Deep learning applications in number theory.</li>
+                <li><strong>Project:</strong> Computational complexity in combinatorics.</li>
+            </ul>
+        </section>
+    </div>
 </body>
 </html>
 
