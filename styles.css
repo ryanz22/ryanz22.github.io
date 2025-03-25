@@ -1,5 +1,5 @@
 body {
-    font-family: 'Roboto', monospace;
+    font-family: 'Helvetica Neue';
     margin: 0;
     padding: 0;
     background-color: #F5F7FA; /* Light gray background */
@@ -25,12 +25,12 @@ header {
     height: 240px;
     border-radius: 50%;
     margin-right: 20px;
-    border: 3px solid #4A90E2; /* Blue border */
+    border: 3px solid #b51717; /* Red border */
 }
 h1 {
     margin: 0;
     font-size: 28px;
-    color: #4A90E2; /* Blue text */
+    color: #b51717; /* Blue text */
     font-weight: 700;
 }
 .contact {
@@ -38,7 +38,7 @@ h1 {
     font-size: 16px;
 }
 .contact a {
-    color: #4A90E2; /* Blue links */
+    color: #b51717; /* Blue links */
     text-decoration: none;
     font-weight: 600;
 }
@@ -46,10 +46,10 @@ section {
     margin-top: 30px;
 }
 h2 {
-    border-bottom: 2px solid #4A90E2; /* Blue border */
+    border-bottom: 2px solid #b51717; /* Blue border */
     padding-bottom: 5px;
     font-size: 22px;
-    color: #4A90E2; /* Blue text */
+    color: #b51717; /* Blue text */
     font-weight: 600;
 }
 .updates, .research {
