@@ -158,40 +158,63 @@
             </ul>
         </section>
 
-        <!-- ===== Projects (in-progress / unpublished) =====
-             Currently hidden via style="display:none" on the <section> below.
-             To show this section, simply DELETE the   style="display:none"   attribute. -->
-        <section class="block" id="projects" style="display:none">
+        <!-- ===== Projects (in-progress / class projects) ===== -->
+        <section class="block" id="projects">
             <h2 class="section-heading">Projects</h2>
             <ul class="entry-list">
 
-                <!-- Template for a new project entry. Copy this <li> and fill in:
-                       videos/<slug>.mp4   (looping clip, ~5-10s, muted)
-                       image/<slug>.jpg    (poster / fallback still)
-                -->
-                <li class="entry placeholder-entry">
+                <li class="entry">
                     <div class="entry-media">
-                        <div class="placeholder-tile">video<br>tile</div>
+                        <a href="https://github.com/leejason2025/DensePPO">
+                            <img class="entry-still" src="image/denseppo-poster.png"
+                                 alt="DensePPO t-SNE of BC latent waypoints"
+                                 onerror="this.onerror=null; this.src='image/placeholder.svg';">
+                        </a>
                     </div>
                     <div class="entry-body">
-                        <span class="entry-title">Project title goes here</span>
-                        <div class="entry-authors">Authors, with <strong>Ryan Zhang</strong> bolded</div>
-                        <div class="entry-venue"><em>Venue or status</em>, year</div>
+                        <a class="entry-title" href="https://github.com/leejason2025/DensePPO">
+                            DensePPO: Unsupervised Dense Reward Generation for RL Fine-Tuning of BC Policies
+                        </a>
+                        <div class="entry-authors">
+                            <strong>Ryan Zhang</strong>, Jason Lee, Yubo Ruan
+                        </div>
+                        <div class="entry-venue">
+                            <em>CS234 (Reinforcement Learning) class project</em>, Stanford, 2026
+                        </div>
                         <div class="entry-links">
-                            <a href="#">project page</a> ·
-                            <a href="#">video</a> ·
-                            <a href="#">code</a>
+                            <a href="https://github.com/leejason2025/DensePPO">code</a>
                         </div>
                         <p class="entry-tldr">
-                            One-sentence summary of what the project does and why it's interesting.
+                            Generate dense rewards by k-means-clustering waypoints in a behavior-cloning
+                            policy's latent space, then use them to fine-tune the BC policy with PPO on
+                            LIBERO manipulation tasks. Improves sample efficiency over sparse-reward
+                            BC + vanilla PPO.
                         </p>
                     </div>
                 </li>
 
+                <!-- Template for the next project entry. Copy this whole <li>...</li> block,
+                     then fill in title, authors, venue, links, summary, and the thumbnail
+                     at image/<slug>.png (or .jpg). For an autoplaying video tile instead, swap
+                     the <img> for:
+                       <video class="entry-video" autoplay muted loop playsinline poster="image/<slug>-poster.jpg">
+                         <source src="videos/<slug>.mp4" type="video/mp4">
+                       </video>
+                <li class="entry">
+                    <div class="entry-media">
+                        <a href="#"><img class="entry-still" src="image/<slug>.png" alt=""></a>
+                    </div>
+                    <div class="entry-body">
+                        <a class="entry-title" href="#">Project title</a>
+                        <div class="entry-authors"><strong>Ryan Zhang</strong>, others</div>
+                        <div class="entry-venue"><em>Class or status</em>, Stanford, year</div>
+                        <div class="entry-links"><a href="#">code</a> · <a href="#">report</a></div>
+                        <p class="entry-tldr">One-sentence summary.</p>
+                    </div>
+                </li>
+                -->
+
             </ul>
-            <p class="block-note">
-                <em>More on the way — drop video clips into <code>videos/</code> and posters into <code>image/</code>, then duplicate the template entry above.</em>
-            </p>
         </section>
 
 
