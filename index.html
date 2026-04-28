@@ -3,44 +3,245 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ryan Zhang | Stanford '28</title>
-    <link href="https://fonts.googleapis.com/css2?family=LoRa:wght@400;600;700&display=swap" rel="stylesheet">
+    <title>Ryan Zhang</title>
+    <meta name="description" content="Ryan Zhang — Stanford undergraduate studying Math and CS, robotics research at the REAL Lab.">
+    <meta name="author" content="Ryan Zhang">
+
+    <!-- Open Graph / social preview -->
+    <meta property="og:title" content="Ryan Zhang">
+    <meta property="og:description" content="Stanford undergraduate studying Math and CS. Robotics research at the REAL Lab.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="image/ryan-stanford-tshirt-corp.jpg">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Newsreader:ital,wght@0,400;0,500;0,600;1,400&amp;display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <img src="image/ryan-stanford-tshirt-corp.jpg" alt="Ryan Zhang" class="profile-pic">
-            <div>
-                <h1>Ryan Zhang</h1>
-                <p>Stanford University, Class of 2028</p>
-                <p>I'm an undergraduate student at Stanford studying Math and Computer Science. I currently work on affordance guided visuomotor policy learning and embodiment agnostic robot data at the Robotics & Embodied Artificial Intelligence Lab <a href="https://real.stanford.edu/">(REAL)</a> under Professor  <a href="https://shurans.github.io/">Shuran Song</a>.</p> 
-                <p>Previously, I have been advised by Professor <a href="https://cee.mit.edu/people_individual/cesar-terrer/">César Terrer</a> at MIT and Professors <a href="https://www.birds.cornell.edu/home/staff/laurel-symes/">Laurel Symes</a> and <a href="https://www.birds.cornell.edu/home/staff/holger-klinck/">Holger Klinck</a> at Cornell. I am currently interested in developing
-                more intelligent autonomous systems that interact with their environments in more versatile and complex ways.</p>
-                <p class="contact"> <a href="mailto:ryanzhang@stanford.edu">Email</a> | 
-                 <a href="https://github.com/ryanz22">GitHub</a> | <a href="https://www.linkedin.com/in/ryanruienzhang/">LinkedIn</a> | <a href="https://scholar.google.com/citations?hl=en&view_op=list_works&authuser=1&gmla=ANZ5fUNNqtRqDUNO6_HD9dYdDC_NxhyBQEXFi1zOnaH5cuvn6en_-ANpxileY-QpyDRe1gkztFl_pMaZg7lqMg&user=Nd9z0-QAAAAJ">Google Scholar</a></p>
+    <main class="page">
 
+        <!-- ===== Header ===== -->
+        <header class="intro">
+            <div class="intro-text">
+                <h1 class="name">Ryan Zhang</h1>
+                <p class="tagline">Stanford University, Class of 2028</p>
+                <p>
+                    I'm an undergraduate at Stanford studying Math and Computer Science.
+                    I currently work on affordance-guided visuomotor policy learning and
+                    embodiment-agnostic robot data at the
+                    <a href="https://real.stanford.edu/">Robotics &amp; Embodied AI Lab (REAL)</a>
+                    with Professor <a href="https://shurans.github.io/">Shuran Song</a>.
+                </p>
+                <p>
+                    Previously, I was advised by Professor
+                    <a href="https://cee.mit.edu/people_individual/cesar-terrer/">César Terrer</a> at MIT
+                    and Professors
+                    <a href="https://www.birds.cornell.edu/home/staff/laurel-symes/">Laurel Symes</a>
+                    and <a href="https://www.birds.cornell.edu/home/staff/holger-klinck/">Holger Klinck</a>
+                    at Cornell. I'm interested in building autonomous systems that interact with their
+                    environments in more versatile and complex ways.
+                </p>
+                <nav class="links" aria-label="Contact and profiles">
+                    <a href="mailto:ryanzhang@stanford.edu">Email</a>
+                    <span class="dot">·</span>
+                    <a href="https://scholar.google.com/citations?user=Nd9z0-QAAAAJ">Scholar</a>
+                    <span class="dot">·</span>
+                    <a href="https://github.com/ryanz22">GitHub</a>
+                    <span class="dot">·</span>
+                    <a href="https://www.linkedin.com/in/ryanruienzhang/">LinkedIn</a>
+                    <!-- <span class="dot">·</span>
+                    <a href="cv.pdf">CV</a> -->
+                </nav>
+            </div>
+            <div class="intro-photo">
+                <img src="image/ryan-stanford-tshirt-corp.jpg" alt="Ryan Zhang" class="profile-pic">
             </div>
         </header>
 
-        <section>
-            <h2>Updates</h2>
-            <ul class="updates">
-                <li>[Spring 2025] Joined REALab at Stanford Robotics Center</li>
-                <li>[Spring 2024] Regeneron STS Scholar</li>
-                <li>[Fall 2023] Bioacoustic source separation research with Cornell Ornithology Lab.</li>
-                <li>[Summer 2023] Natural climate solutions quantification research at MIT CEE.</li>
+        <!-- ===== News ===== -->
+        <section class="block" id="news">
+            <h2 class="section-heading">News</h2>
+            <ul class="news-list">
+                <li><span class="news-date">Spring 2025</span> Joined the REAL Lab at Stanford to work on robot learning.</li>
+                <li><span class="news-date">Spring 2024</span> Named a <a href="https://www.societyforscience.org/regeneron-sts/">Regeneron STS</a> Scholar.</li>
+                <li><span class="news-date">Fall 2023</span> Bioacoustic source-separation research at the Cornell Lab of Ornithology.</li>
+                <li><span class="news-date">Summer 2023</span> Natural climate solutions research at MIT CEE.</li>
             </ul>
         </section>
 
-        <section>
-            <h2>Research and Publications</h2>
-            <ul class="research">
-                <li>"PEDS-AI: A Novel Unmanned Aerial Vehicle Based Artificial Intelligence Powered Visual-Acoustic Pest Early Detection and Identification System for Field Deployment and Surveillance
-                    " - <em>IEEE Conference on Technologies for Sustainability</em>, 2023. <a href="https://ieeexplore.ieee.org/document/10129631">Paper</a>
+        <!-- ===== Research / Publications ===== -->
+        <section class="block" id="research">
+            <h2 class="section-heading">Research</h2>
+            <ul class="entry-list">
+
+                <li class="entry">
+                    <div class="entry-media">
+                        <a href="https://umi-under-water.github.io/">
+                            <video class="entry-video" autoplay muted loop playsinline
+                                   poster="image/umi-underwater-poster.jpg">
+                                <source src="videos/umi-underwater.mp4" type="video/mp4">
+                            </video>
+                        </a>
+                    </div>
+                    <div class="entry-body">
+                        <a class="entry-title" href="https://umi-under-water.github.io/">
+                            UMI-Underwater: Learning Underwater Manipulation without Underwater Teleoperation
+                        </a>
+                        <div class="entry-authors">
+                            Hao Li, Long Yin Chung, Jack Goler, <strong>Ryan Zhang</strong>,
+                            Xiaochi Xie, Huy Ha, Shuran Song, Mark Cutkosky
+                        </div>
+                        <div class="entry-venue">
+                            <em>arXiv preprint</em>, 2026
+                        </div>
+                        <div class="entry-links">
+                            <a href="https://umi-under-water.github.io/">project page</a> ·
+                            <a href="https://arxiv.org/abs/2603.27012">arXiv</a>
+                        </div>
+                        <p class="entry-tldr">
+                            A handheld gripper (UMI-Aquatic) that collects underwater manipulation data
+                            without underwater teleoperation, plus a depth-based affordance
+                            representation that transfers on-land demonstrations to underwater deployment.
+                        </p>
+                    </div>
+                </li>
+
+                <li class="entry">
+                    <div class="entry-media">
+                        <a href="https://ieeexplore.ieee.org/document/10129631">
+                            <!-- Static thumbnail (system architecture figure). To use a
+                                 looping video clip instead, swap in:
+                                 <video class="entry-video" autoplay muted loop playsinline
+                                        poster="image/peds-ai-poster.png">
+                                     <source src="videos/peds-ai.mp4" type="video/mp4">
+                                 </video>
+                            -->
+                            <img class="entry-still" src="image/peds-ai-poster.png"
+                                 alt="PEDS-AI"
+                                 onerror="this.onerror=null; this.src='image/placeholder.svg';">
+                        </a>
+                    </div>
+                    <div class="entry-body">
+                        <a class="entry-title" href="https://ieeexplore.ieee.org/document/10129631">
+                            PEDS-AI: A Novel UAV-Based Visual-Acoustic Pest Early Detection and Identification System
+                        </a>
+                        <div class="entry-authors">
+                            <strong>Ryan Zhang</strong>
+                        </div>
+                        <div class="entry-venue">
+                            <em>IEEE Conference on Technologies for Sustainability (SusTech)</em>, 2023
+                        </div>
+                        <div class="entry-links">
+                            <a href="https://ieeexplore.ieee.org/document/10129631">Paper</a>
+                        </div>
+                        <p class="entry-tldr">
+                            A drone-based system combining computer vision and acoustic detection
+                            to identify agricultural pests in the field.
+                        </p>
+                    </div>
+                </li>
+
+            </ul>
+        </section>
+
+        <!-- ===== Projects (in-progress / unpublished) =====
+             Currently hidden via style="display:none" on the <section> below.
+             To show this section, simply DELETE the   style="display:none"   attribute. -->
+        <section class="block" id="projects" style="display:none">
+            <h2 class="section-heading">Projects</h2>
+            <ul class="entry-list">
+
+                <!-- Template for a new project entry. Copy this <li> and fill in:
+                       videos/<slug>.mp4   (looping clip, ~5-10s, muted)
+                       image/<slug>.jpg    (poster / fallback still)
+                -->
+                <li class="entry placeholder-entry">
+                    <div class="entry-media">
+                        <div class="placeholder-tile">video<br>tile</div>
+                    </div>
+                    <div class="entry-body">
+                        <span class="entry-title">Project title goes here</span>
+                        <div class="entry-authors">Authors, with <strong>Ryan Zhang</strong> bolded</div>
+                        <div class="entry-venue"><em>Venue or status</em>, year</div>
+                        <div class="entry-links">
+                            <a href="#">project page</a> ·
+                            <a href="#">video</a> ·
+                            <a href="#">code</a>
+                        </div>
+                        <p class="entry-tldr">
+                            One-sentence summary of what the project does and why it's interesting.
+                        </p>
+                    </div>
+                </li>
+
+            </ul>
+            <p class="block-note">
+                <em>More on the way — drop video clips into <code>videos/</code> and posters into <code>image/</code>, then duplicate the template entry above.</em>
+            </p>
+        </section>
+
+
+
+        <!-- ===== Experience / Education ===== -->
+        <section class="block" id="experience">
+            <h2 class="section-heading">Experience</h2>
+            <ul class="experience-list">
+                <li>
+                    <span class="exp-when">2024 – present</span>
+                    <span class="exp-what">
+                        <strong>Stanford University</strong> — B.S. in Mathematics and Computer Science.
+                    </span>
+                </li>
+                <li>
+                    <span class="exp-when">2025 – present</span>
+                    <span class="exp-what">
+                        <strong>REAL Lab</strong>, Stanford — undergraduate researcher with
+                        <a href="https://shurans.github.io/">Shuran Song</a>.
+                    </span>
+                </li>
+                <li>
+                    <span class="exp-when">2023</span>
+                    <span class="exp-what">
+                        <strong>Cornell Lab of Ornithology</strong> — research intern with
+                        <a href="https://www.birds.cornell.edu/home/staff/laurel-symes/">Laurel Symes</a> and
+                        <a href="https://www.birds.cornell.edu/home/staff/holger-klinck/">Holger Klinck</a>.
+                    </span>
+                </li>
+                <li>
+                    <span class="exp-when">2023</span>
+                    <span class="exp-what">
+                        <strong>MIT CEE (Terrer Lab)</strong> — research intern with
+                        <a href="https://cee.mit.edu/people_individual/cesar-terrer/">César Terrer</a>.
+                    </span>
                 </li>
             </ul>
         </section>
-    </div>
+
+        <footer class="page-footer">
+            <p>Last updated April 2026.</p>
+        </footer>
+
+    </main>
+
+    <!-- Pause videos when off-screen so the page stays light -->
+    <script>
+        (function () {
+            const videos = document.querySelectorAll('.entry-video');
+            if (!('IntersectionObserver' in window) || videos.length === 0) return;
+            const obs = new IntersectionObserver((entries) => {
+                entries.forEach((entry) => {
+                    const v = entry.target;
+                    if (entry.isIntersecting) {
+                        v.play().catch(() => {});
+                    } else {
+                        v.pause();
+                    }
+                });
+            }, { threshold: 0.1 });
+            videos.forEach((v) => obs.observe(v));
+        })();
+    </script>
 </body>
 </html>

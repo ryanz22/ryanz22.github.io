@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <pattern id="hatch" width="20" height="20" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="20" height="20" fill="#f4f4f4"/>
+      <rect width="10" height="20" fill="#efefef"/>
+    </pattern>
+  </defs>
+  <rect width="200" height="200" fill="url(#hatch)"/>
+  <text x="100" y="100" text-anchor="middle" dominant-baseline="middle"
+        font-family="-apple-system, Helvetica, Arial, sans-serif"
+        font-size="11" letter-spacing="1.5" fill="#a3a3a3">
+    THUMBNAIL
+  </text>
+</svg>
